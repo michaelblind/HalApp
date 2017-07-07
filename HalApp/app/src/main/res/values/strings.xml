@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description" translatable="false">Navigate home</string>
+    <string name="abc_action_bar_home_description_format" translatable="false">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format" translatable="false">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description" translatable="false">Navigate up</string>
+    <string name="abc_action_menu_overflow_description" translatable="false">More options</string>
+    <string name="abc_action_mode_done" translatable="false">Done</string>
+    <string name="abc_activity_chooser_view_see_all" translatable="false">See all</string>
+    <string name="abc_activitychooserview_choose_application" translatable="false">Choose an app</string>
+    <string name="abc_capital_off" translatable="false">OFF</string>
+    <string name="abc_capital_on" translatable="false">ON</string>
+    <string name="abc_search_hint" translatable="false">Search…</string>
+    <string name="abc_searchview_description_clear" translatable="false">Clear query</string>
+    <string name="abc_searchview_description_query" translatable="false">Search query</string>
+    <string name="abc_searchview_description_search" translatable="false">Search</string>
+    <string name="abc_searchview_description_submit" translatable="false">Submit query</string>
+    <string name="abc_searchview_description_voice" translatable="false">Voice search</string>
+    <string name="abc_shareactionprovider_share_with" translatable="false">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application" translatable="false">Share with %s</string>
+    <string name="abc_toolbar_collapse_description" translatable="false">Collapse</string>
+    <string name="search_menu_title" translatable="false">Search</string>
+    <string name="status_bar_notification_info_overflow" translatable="false">999+</string>
+    <string name="Continue">Weiter</string>
+    <string name="info">Teile uns konkrete Herausforderungen mit, die dir im Alltag begegnen.\n\nWöchentlich hast du die Chance Gutscheine zu gewinnen. \n\nAuf unserer Facebook-Seite halten wir dich auf dem Laufenden.</string>
+    <string name="abc_font_family_body_1_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_body_2_material" translatable="false">sans-serif-medium</string>
+    <string name="abc_font_family_button_material" translatable="false">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_display_1_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_display_2_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_display_3_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_display_4_material" translatable="false">sans-serif-light</string>
+    <string name="abc_font_family_headline_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_menu_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_subhead_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_title_material" translatable="false">sans-serif-medium</string>
+    <string name="app_name">HAL</string>
+    <string name="arabic">Arabisch</string>
+    <string name="english">Englisch</string>
+    <string name="female">Frau</string>
+    <string name="german">Deutsch</string>
+    <string name="good_luck">Viel Glück bei der Verlosung ;)</string>
+    <string name="header">Erstelle dein Profil</string>
+    <string name="male">Mann</string>
+    <string name="question_arrival">Wann bist du nach Deutschland gekommen?</string>
+    <string name="question_birthday">Wie alt bist du?</string>
+    <string name="question_category">Zu welcher Kategorie gehört das Problem?</string>
+    <string name="question_city">Wo wohnst du?</string>
+    <string name="question_country">Aus welchem Land kommst du?</string>
+    <string name="question_email">Wie lautet deine E-Mail Adresse?</string>
+    <string name="question_gender">Was ist dein Geschlecht?</string>
+    <string name="question_problem">Beschreibe das Problem</string>
+    <string name="select_language">Wähle deine Sprache aus</string>
+    <string name="send">Senden</string>
+    <string name="thanks_for_help">Vielen Dank für deine Mithilfe!</string>
+    <string name="welcome">Willkommen!</string>
+    <string name="pick_date">Datum auswählen</string>
+    <string name="hal_logo" translatable="false">HAL Logo</string>
+    <string name="back">Zurück</string>
+    <string name="problem">Problem</string>
+    <string name="data_incomplete">Daten unvollständig!</string>
+    <string-array name="categories">
+        <item>Frage</item>
+    </string-array>
+    <string-array name="cites">
+        <item>Muenchen</item>
+    </string-array>
+    <string-array name="ages">
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+    </string-array>
+    <string-array name="countries">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Myanmar/Burma</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominican Republic</item>
+        <item>Dominica</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Great Britain</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Israel and the Occupied Territories</item>
+        <item>Italy</item>
+        <item>Ivory Coast (Cote d Ivoire)</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyz Republic (Kyrgyzstan)</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Republic of Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Moldova, Republic of</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Korea, Democratic Republic of (North Korea)</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pacific Islands</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>Rwanda</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Vincents and Grenadines</item>
+        <item>Samoa</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovak Republic (Slovakia)</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>Korea, Republic of (South Korea)</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor Leste</item>
+        <item>Togo</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United States of America (USA)</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Virgin Islands (UK)</item>
+        <item>Virgin Islands (US)</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HAL</string>
+    <string name="Continue">Continue</string>
+    <string name="abc_action_bar_home_description"></string>
+    <string name="arabic">Arabic</string>
+    <string name="back">Back</string>
+    <string name="data_incomplete">Data incomplete!</string>
+    <string name="english">English</string>
+    <string name="female">Female</string>
+    <string name="german">German</string>
+    <string name="good_luck">May the odds be in your favor ;)</string>
+    <string name="header">Create  your Profile</string>
+    <string name="info">Share concrete challenges you encounter on a day-to-day basis.  Every week you have to opportunity to win coupons.  For the most recent updates, follow us on Facebook.</string>
+    <string name="male">Male</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="problem">Problem</string>
+    <string name="question_arrival">When did you arrive in Germany?</string>
+    <string name="question_birthday">How old are you?</string>
+    <string name="question_category">Which Category does your problem belong to?</string>
+    <string name="question_city">Where do you live?</string>
+    <string name="question_country">Which country are you from?</string>
+    <string name="question_email">What\'s your email address?</string>
+    <string name="question_gender">What\'s your Gender</string>
+    <string name="question_problem">Describe your Problem</string>
+    <string name="search_menu_title"></string>
+    <string name="select_language">Select your Language</string>
+    <string name="send">Send</string>
+    <string name="thanks_for_help">Thanks for your help!</string>
+    <string name="welcome">Welcome!</string>
+</resources>

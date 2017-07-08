@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import org.apache.commons.codec.binary.Base64;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -22,9 +23,10 @@ import org.apache.http.message.BasicNameValuePair;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.ObjectInputStream;
+import java.security.KeyFactory;
 import java.security.PublicKey;
+import java.security.spec.X509EncodedKeySpec;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -102,17 +104,17 @@ public class MainActivity extends AppCompatActivity {
     private String csvString(){
         StringBuilder builder = new StringBuilder();
         builder.append(data_me);
-        builder.append(",");
+        builder.append(",,,");
         builder.append(data_ca);
-        builder.append(",");
+        builder.append(",,,");
         builder.append(data_em);
-        builder.append(",");
+        builder.append(",,,");
         builder.append(data_co);
-        builder.append(",");
+        builder.append(",,,");
         builder.append(data_ci);
-        builder.append(",");
+        builder.append(",,,");
         builder.append(data_ag);
-        builder.append(",");
+        builder.append(",,,");
         builder.append(data_dt);
 
         return builder.toString();
@@ -131,8 +133,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private PublicKey getPublicKey() throws Exception {
-        ObjectInputStream stream = new ObjectInputStream(new FileInputStream(PUBLIC_KEY_FILE));
-        return (PublicKey) stream.readObject();
+        byte[] publicK = getString(R.string.public_key).getBytes();
+        byte[] publicBytes = Base64.decodeBase64(publicK);
+        X509EncodedKeySpec keySpec = new X509EncodedKeySpec(publicBytes);
+        KeyFactory keyFactory = KeyFactory.getInstance("RSA");
+        return keyFactory.generatePublic(keySpec);
     }
 
     private void send(String message) throws IOException {
@@ -141,8 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Request parameters and other properties.
         List<NameValuePair> params = new ArrayList<NameValuePair>(2);
-        params.add(new BasicNameValuePair("param-1", "12345"));
-        params.add(new BasicNameValuePair("param-2", "Hello!"));
+        params.add(new BasicNameValuePair("csv", message));
         httppost.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
 
         //Execute and get the response.

@@ -60,6 +60,8 @@
     <string name="back">Zurück</string>
     <string name="problem">Problem</string>
     <string name="data_incomplete">Daten unvollständig!</string>
+    <string name="public_key"></string>
+    <string name="sending_error">Something went wrong!</string>
     <string-array name="categories">
         <item>Frage</item>
     </string-array>
